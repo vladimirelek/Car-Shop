@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.auth {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.tekst {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.logout {
+  display: flex;
+  justify-content: space-around;
+  width: 220px;
+}
+.icon {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.naslov {
+  font-family: "Dancing Script";
+}
+.naslov:hover {
+  cursor: pointer;
+}
+.email {
+  font-size: 20px;
+}
+.email:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 40px;
+}
+.input {
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+  width: 150px;
+  height: 50px;
+}
+.input:hover {
+  background-color: #eee;
+}
+.prvi-dio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.drugi-dio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.treci-dio {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.file {
+  width: 190px;
+  height: 50px;
+}
+.add-car-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+label {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

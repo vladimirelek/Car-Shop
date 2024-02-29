@@ -1,0 +1,28 @@
+.user-info {
+  margin-left: 100px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-right: 50px;
+}
+.kartica {
+  border-style: groove;
+  border-color: white;
+  width: 300px;
+}
+.lokacija {
+  margin-left: 180px;
+  height: 20px;
+}
+
+.automobili {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  gap: 30px;
+}
+.kartica-user {
+  background-color: gray;
+}

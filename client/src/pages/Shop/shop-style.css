@@ -1,0 +1,82 @@
+.allCards {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.search-bar-container {
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-right: 8px;
+  width: 80%;
+  height: 50px;
+  font-size: 30px;
+  background-color: #f8f8ff;
+}
+.search-bar::placeholder {
+  color: #a9a9a9;
+}
+.search-button,
+.post-ad-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+}
+.search-button:hover {
+  background-color: gray;
+}
+
+.post-ad-button {
+  background-color: #fff;
+  color: #000;
+}
+.allFilters {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding-top: 20px;
+  margin-left: 120px;
+  margin-right: 20px;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+.radioButtons {
+  margin-left: 120px;
+  padding-top: 20px;
+}
+.dugmeFilter {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.lupa {
+  margin-top: 5px;
+}
+.skeleton{
+  
+}

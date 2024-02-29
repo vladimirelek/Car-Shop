@@ -1,0 +1,19 @@
+.car-list {
+  margin-left: 120px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+h1 {
+  font-size: 35px;
+  font-family: serif;
+}
+

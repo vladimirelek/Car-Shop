@@ -1,0 +1,49 @@
+.card {
+  width: 400px;
+}
+.podaci {
+  display: flex;
+  justify-content: space-around;
+}
+.proizvodjac {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.izdvojeno {
+  color: orange;
+}
+.gorivo {
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: 52px;
+  border-style: groove;
+}
+.cijena {
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: 100px;
+  border-style: groove;
+}
+.godiste {
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: 50px;
+  border-style: groove;
+}
+.profil {
+  display: flex;
+  justify-content: space-between;
+}
+.username {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-style: groove;
+  color: white;
+}

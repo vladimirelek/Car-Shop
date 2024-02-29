@@ -1,0 +1,17 @@
+.search-button,
+.post-ad-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+}
+.search-button:hover {
+  background-color: gray;
+}

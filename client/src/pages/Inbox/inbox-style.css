@@ -1,0 +1,22 @@
+.inbox {
+  margin-left: 100px;
+  border-style: groove;
+  color: white;
+  background-color: gray;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  border-style: groove;
+  margin: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.sendMessageToAllClients {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
