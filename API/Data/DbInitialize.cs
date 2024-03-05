@@ -268,7 +268,7 @@ namespace API.Data
                         SnagaMotora=77,
                         BrojVrata=4,
                         Gorivo="Dizel",
-                        Slika="touran.jpg",
+                        Slika="touran.jpeg",
                         Cijena=24999,
                         Featured=false,
                         User=user2
